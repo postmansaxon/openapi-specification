@@ -28,7 +28,7 @@
 									}
 								],
 								"url": {
-									"raw": "https://roads.googleapis.com/v1/snaptoroads?path=gotoGoogle",
+									"raw": "https://roads.googleapis.com/v1/snaptoroads?asdfasdfasdfasdfasdf",
 									"protocol": "https",
 									"host": [
 										"roads",
@@ -41,8 +41,8 @@
 									],
 									"query": [
 										{
-											"key": "path",
-											"value": "gotoGoogle"
+											"key": "asdfasdfasdfasdfasdf",
+											"value": null
 										}
 									]
 								},

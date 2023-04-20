@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "f503e648-845b-45e2-9ae9-04f0e692fda3",
-		"name": "Demo Collection",
+		"name": "Documentation Collection",
 		"description": "API Specification for Google Maps Platform",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "25255214-f503e648-845b-45e2-9ae9-04f0e692fda3"
@@ -28,7 +28,7 @@
 									}
 								],
 								"url": {
-									"raw": "https://roads.googleapis.com/v1/snaptoroads?path=GREYBRADGSFAGSFDGSDFGSDFGSDFG",
+									"raw": "https://roads.googleapis.com/v1/snaptoroads?path=gotoGoogle",
 									"protocol": "https",
 									"host": [
 										"roads",
@@ -42,11 +42,11 @@
 									"query": [
 										{
 											"key": "path",
-											"value": "GREYBRADGSFAGSFDGSDFGSDFGSDFG"
+											"value": "gotoGoogle"
 										}
 									]
 								},
-								"description": "This service returns the best-fit road geometry for a given set of GPS coordinates. This service takes up to 100 GPS points collected along a route, and returns a similar set of data with the points snapped to the most likely roads the vehicle was traveling along. Optionally, you can request that the points be interpolated, resulting in a path that smoothly follows the geometry of the road."
+								"description": "This service returns the best-fit road geometry for a given set of GPS coordinates. This service takes up to 100 GPS points collected along a route, and returns a similar set of data with the points snapped to the most likely roads the vehicle was traveling along. Optionally, you can request that the points be interpolated, resulting in a path that smoothly follows the geometry of the road.\n\nBtw this doesnt work when doing XYZ"
 							},
 							"response": [
 								{

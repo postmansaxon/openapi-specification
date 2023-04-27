@@ -115,7 +115,7 @@
 									}
 								],
 								"url": {
-									"raw": "https://roads.googleapis.com/v1/nearestRoads?points=<string>|<string>",
+									"raw": "https://roads.googleapis.com/v1123446566",
 									"protocol": "https",
 									"host": [
 										"roads",
@@ -123,15 +123,7 @@
 										"com"
 									],
 									"path": [
-										"v1",
-										"nearestRoads"
-									],
-									"query": [
-										{
-											"description": "(Required) The points to be snapped. The points parameter accepts a list of latitude/longitude pairs. Separate latitude and longitude values with commas. Separate coordinates with the pipe character: \"|\". For example: `points=60.170880,24.942795|60.170879,24.942796|60.170877,24.942796`.\n",
-											"key": "points",
-											"value": "<string>|<string>"
-										}
+										"v1123446566"
 									]
 								},
 								"description": "This service returns individual road segments for a given set of GPS coordinates. This services takes up to 100 GPS points and returns the closest road segments for each point. The points passed do not need to be part of a continuous path."

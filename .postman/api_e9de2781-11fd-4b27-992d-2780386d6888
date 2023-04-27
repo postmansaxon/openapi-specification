@@ -9,6 +9,7 @@ id = e9de2781-11fd-4b27-992d-2780386d6888
 
 [config.relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"25255214-7e325405-5fa5-45cf-98ba-1cb123413435","path":"Demo of issue for Shashank.json","metaData":{"generateCollectionPreferences":"{\"requestNameSource\":\"Fallback\",\"indentCharacter\":\"Space\",\"parametersResolution\":\"Schema\",\"folderStrategy\":\"Paths\",\"includeAuthInfoInExample\":true,\"keepImplicitHeaders\":false,\"includeDeprecated\":true,\"requestParametersResolution\":\"Schema\",\"updateCollectionSync\":true,\"exampleParametersResolution\":\"Schema\"}"}}
 files[] = {"id":"25255214-f503e648-845b-45e2-9ae9-04f0e692fda3","path":"Documentation Collection.json","metaData":{}}
 
 [config.relations.collections.metaData]
